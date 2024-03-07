@@ -1,0 +1,286 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    height: 100vh;
+}
+.navber{
+    background-color: rgb(246, 246, 246);
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    
+    
+}
+.content {
+    background-image: url(https://inter-nation.uz/1-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin-left: 190px;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav li {
+    margin-left: 30px;
+    font-size: 24px;
+}
+.icons i{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-regular {
+    background-color: chocolate;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.fa-solid {
+    background-color: chocolate;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.tel{
+    text-decoration: underline;
+}
+form {
+    max-width: 444px;
+    padding: 30px;
+    height: 350px;
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(10px);
+    margin-top: 200px;
+    
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 80vh;
+    margin-right: 200px;
+    color: aliceblue;
+}
+.yes{
+    width: 350px;
+    height: 50px;
+    margin-top: -60px;
+}
+.yes1{
+    width: 350px;
+    height: 50px;
+    margin-top: 8px;
+    position: absolute;
+}
+.bax{
+    width: 350px;
+    height: 50px;
+    background-color: yellow;
+    margin-top: 50px;
+}
+section{
+    width: 100%;
+    gap: 30px;
+}
+.boxx{
+    width:40%;
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+.mein{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.section1 {
+    width: 100%;
+    height: 700px;
+}
+.texa {
+    width: 100%;
+    display: flex;
+    gap: 105px;
+}
+.text{
+    font-size: 40px;
+}
+.text1{
+    font-size: 18px;
+    color: rgb(6, 5, 5);
+    margin-top: 20px;
+}
+
+.texa_left{
+    text-align: center;
+    margin-top: 25px;
+}
+.span2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.texa_left1{
+    text-align: center;
+    margin-top: 25px;
+
+}
+.span3{
+    font-size: 60px;
+    font-weight: bold;
+}
+.texa_left2{
+    text-align: center;
+    margin-top: 25px;
+}
+.span4{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section2 {
+    width: 100%;
+    height: 700px;
+}
+.texa3{
+    margin-left: 200px;
+    font-size: 11px;
+}
+.mein1 {
+    display: flex;
+    margin-top: -90px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.d-block{
+    width: 900px;
+    height: 600px;
+    margin-left: 400px;
+}
+.d-blockk{
+    width: 900px;
+    height: 600px;
+    margin-left: 400px;
+}
+.d-blokk{
+    width: 900px;
+    height: 600px;
+    margin-left: 400px;
+}
+.textt12{
+    text-align: center;
+    margin-top: -120px;
+}
+.textt13{
+    text-align: center;
+    margin-top: -100px;
+}
+.textt14{
+    text-align: center;
+    margin-top: -100px;
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(234, 255, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.carousel-control-next-icon {
+    background-color: rgb(234, 255, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+.carousel-control-prev {
+    left: 300px;
+}
+
+.carousel-control-next {
+    right: 300px;
+}
+.section3{   
+    width: 100%;
+    height: 700px;
+}
+.te5{
+    margin-left: 100px;
+}
+.mein3{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(225, 125, 47);
+    margin-left: 100px ;
+    margin-top: 100px;
+
+}
+.foto1{
+    position: relative;
+    width: 85%;
+    z-index: 99;
+}
+.mein4{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(219, 121, 17);
+    margin-left: 400px;
+    margin-top: -400px;
+    
+}
+.foto2{
+    position: relative;
+    width: 85%;
+    z-index: 99;
+
+}
+.te6{
+    font-size: 25px;
+    margin-top: 20px;
+}
+ .mein5{
+    width: 250px;
+    height: 400px;
+    background-color: rgb(219, 121, 17);
+    
+    margin-left: 700px;
+    margin-top: -400px;
+    
+}
+.te7{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.foto3{
+    position: relative;
+    width: 85%;
+    z-index: 99;
+}
+.te8{
+    font-size: 25px;
+    margin-top: 20px;
+}
